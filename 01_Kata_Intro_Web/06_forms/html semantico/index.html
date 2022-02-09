@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Bienvenido al club fitness</title>
+</head>
+<body>
+    <h1>Bienvenido al club fitness</h1>
+    <fieldset>
+        <legend>Información general</legend>
+        <form name="formulario" action="" method="">
+            <label for="name">Nombre</label> <br>
+            <input type="text" name="nombre" id="nombre" value="" placeholder="Escribe">
+
+            <br>
+            <label for="miembro">¿Eres miembro?</label>
+            <input type="radio" id="radio1" name="radio1" value="miembro" checked>Miembro
+            <input type="radio" id="radio2" name="radio2" value="noMiembro">No miembro
+
+            <br>
+            <label for="personalidad">Escribe tu personalidad</label> <br>
+            <textarea name="personalidad" id="personalidad" cols="30" rows="10"></textarea>
+            <br>
+            <label for="correa">E-mail</label>
+            <input type="email" id="correo" name="correo"> 
+        </fieldset>
+        <label for="instalaciones">Instalaciones</label>
+        <select name="instalaciones" id="instalaciones">Instalaciones
+            <option value="1">Badminton</option>
+            <option value="2">Tenis</option>
+            <option value="3">Football</option> 
+        </select>
+        <br>
+        <label for="fecha">Selecciona fecha para reservar</label> <br>
+        <input type="datetime-local" id="fecha" name="fecha"> <br>
+        <label> <input type="checkbox" id="check" value="check-1">Estoy de acuerdo con las políticas del club</label> <br>
+        <input type="submit">
+        </form>
+    
+
+    
+</body>
+</html>

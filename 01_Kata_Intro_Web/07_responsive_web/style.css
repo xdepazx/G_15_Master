@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+        flex-wrap: wrap;
+}
+
+.blue_1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    border: 2px black solid;
+}
+
+.blue_2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+.yellow {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+@media (min-width: 1465px) {
+    .container {
+        display: flex;
+    }
+
+    .blue_1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 1465px){
+
+    .yellow {
+        
+        width: 100%;
+    }
+
+    .blue_1 {
+        width:48%
+    }
+
+    .blue_2 {
+        width: 48%
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .container {
+        display: flex;
+        
+    }
+}
