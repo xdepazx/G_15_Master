@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.caja {
+    display: flex;
+    position: relative;
+    top: 25px;
+    background-color: #b4b4b4;
+    width: 1016px;
+    height: auto;
+    border-radius: 32px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container {
+    border-radius: 32px 0px 0px 32px;
+    width: 50%;
+    height: auto;
+}
+
+.container img.uno {
+    border-radius: 32px 0px 0px 32px;
+    height: 100%;
+    max-width: 508px;
+    border: 0;
+    object-fit: cover;
+}
+
+.containerdos {
+    flex-wrap: nowrap;
+    width: 50%;
+    align-items: center;
+    align-self: center;
+}
+
+img.iconos {
+    flex-direction: row;
+    height: 2em;
+    width: 2em;
+    
+}
+
+.barraiconos {
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+
